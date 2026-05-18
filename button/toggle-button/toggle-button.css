@@ -1,0 +1,24 @@
+body {
+    background-color: black;
+}
+.btn, .btn[aria-disabled='false'], .btn[aria-pressed="false"] {
+    padding: 10px;
+    background-color: transparent;
+    color: yellow;
+    border-radius: 0.25rem;
+    border: 2px solid black;
+}
+
+.btn, .btn[aria-disabled='true'] {
+    padding: 10px;
+    background-color: lightgray;
+    color: black;
+    border-radius: 0.25rem;
+}
+
+.btn[aria-pressed="true"] {
+    padding: 10px;
+    background-color: yellow;
+    color: black;
+    border-radius: 0.25rem;
+}
